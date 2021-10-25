@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>標題</title>
+    </head>
+
+    <body>
+    
+    <h1>搜尋</h1>
+
+    <form method="POST" action="/submit">
+        <input  type="text" name="key">
+        <button>送出</button>
+    </form> 
+
+    <form method="POST" action="/tools">
+        <button name="button" value="clear">清空資料</button>
+        <button name="button" value="refresh">重新整理</button>
+    </form> 
+
+    <div>
+        {{Key}}
+    </div>
+         
+    </body>
+</html>
+
